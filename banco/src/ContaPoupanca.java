@@ -1,14 +1,10 @@
 
-public class Conta {
+public class ContaPoupanca {
+
 	private double saldo;
 
 	void deposita(double valor) {
 		this.saldo += valor;
-	}
-
-	public double getSaldo() {
-
-		return this.saldo;
 	}
 
 }
